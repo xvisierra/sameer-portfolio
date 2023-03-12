@@ -327,3 +327,55 @@
     .language-item {
       margin: 10px;
     }
+
+    .courses {
+      margin-top: 50px;
+    }
+    
+    .courses h2 {
+      font-size: 36px;
+      text-align: center;
+    }
+    
+    .courses-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .course {
+      width: 300px;
+      padding: 20px;
+      margin: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .course h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .course p {
+      font-size: 16px;
+      color: #666;
+      margin: 5px 0;
+
+    }
+    .course a {
+  text-decoration: none;
+  color: #333;
+}
+
+.course a:hover {
+  background-color: #eee;
+}
+
+.course a:active {
+  transform: translateY(1px);
+}
