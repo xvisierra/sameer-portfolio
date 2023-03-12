@@ -5,12 +5,16 @@
       background-color: white;
   }
   .navbar-brand {
-      font-size: 40px;
+      font-size: 30px;
   }
   .navbar {
     background-image: url('images/pdms.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 80px;
   }
 
   /* hero background image */
@@ -47,7 +51,47 @@
       height: auto;
       z-index: -1;
     }
+    .technical-skills {
+      background-color: #f6f6f6;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    h2 {
+      text-align: center;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 960px; /* Set a maximum width for the container */
+      margin-top: 20px; /* Add margin to separate the heading and skills */
+    }
     
+    .skill {
+      background-color: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      height: fit-content;
+      width: fit-content;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #333333;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .skill {
+        font-size: 18px;
+      }
+    }
 
   /* text css above hero image*/
   .hero_title {
@@ -149,4 +193,123 @@
       margin: 8px;
       border-radius: 16px;
       font-weight: bold;
+    }
+    .leadership-skills {
+      background-color: #f6f6f6;
+      padding: 50px;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Three columns */
+      grid-gap: 30px; /* Spacing between grid items */
+      max-width: 960px; /* Set a maximum width for the grid */
+      margin: 0 auto; /* Center the grid horizontally */
+    }
+    
+    .grid-item {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: 1fr; /* One column */
+      }
+    }
+
+    .language-skills {
+      background-color: #f6f6f6;
+      padding: 50px;
+    }
+    
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .language-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    
+    .language-item {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 30%;
+    }
+    
+    h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    
+    .language-level {
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      margin-top: 10px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: bold;
+      display: inline-block;
+    }
+    
+    .level-advanced {
+      background-color: #4caf50;
+    }
+    
+    .level-intermediate {
+      background-color: #ffc107;
+    }
+    
+    .level-beginner {
+      background-color: #f44336;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .language-container {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .language-item {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+    .language-item {
+      margin: 10px;
     }
