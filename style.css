@@ -1,21 +1,35 @@
 
   /* display background color black on navbar scroll */
 
-  .navbarScroll.navbarDark {
-      background-color: white;
-  }
-  .navbar-brand {
-      font-size: 30px;
-  }
   .navbar {
-    background-image: url('images/pdms.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 80px;
+    background-image: url('images/nav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 60px; /* reduce the navbar height */
   }
+  
+  .navbar-brand {
+    font-size: 40px;
+    font-family: 'Allura', cursive;
+
+  }
+  
+  .social-icons {
+    margin-left: auto; /* push the social icons to the right */
+  }
+  
+  .navbar-nav {
+    height: 100%; /* make the navbar-nav fill the height of the navbar */
+    display: flex;
+    align-items: center; /* vertically center the nav links */
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem; /* add some padding to the nav links */
+  }
+  
+  
 
   /* hero background image */
   .bgimage {
