@@ -123,22 +123,33 @@
     }
 
     /* spacing on all sections */
-    /* #about, #services, #portfolio, #contact {
-        margin-top: 4rem;
-        padding-top: 4rem;
+    /* 
     } */
     #contact {
         padding-bottom: 4rem;
     }
+    
     /* about section image css */
     .imageAboutPage {
-        width: 95%;
-        border-radius: 80%;
-        padding: 0;
-        margin: 0;
-      }
+      width: 85%;
+      border-radius: 100%;
+      padding: 0;
+      margin: 0;
       
-      
+    }
+    
+    #about{
+      margin: 0%;
+      padding: 0%;
+    }
+    #about {
+      background-image: url('images/bg-green.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      backdrop-filter: blur(10px);
+
+    }
+    
 
     /* services section css */
     .servicesText.card {
