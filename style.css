@@ -65,6 +65,7 @@
         z-index: -1;
       }
       .technical-skills {
+        margin: 0 auto;
         background-color: #f6f6f6;
         padding: 50px;
         display: flex;
@@ -139,6 +140,7 @@
     }
     
     #about{
+      display: flex;
       margin: 0%;
       padding: 0%;
     }
@@ -160,6 +162,10 @@
         font-size: 36px;
         text-align: center;
         width: 100%;
+    }
+    .card
+    {
+      margin-bottom: 7%;
     }
     .card-title {
         text-align: center;
@@ -185,6 +191,8 @@
     }
     /* footer styling */
     #footer {
+      margin: 0 auto;
+      display: flex;
         background-color: #808080;
         text-align: center;
     }
@@ -339,7 +347,7 @@
       }
 
       .courses {
-        margin-top: 50px;
+        margin-top: 0px;
       }
       
       .courses h2 {
@@ -407,4 +415,7 @@
     color: white;
     text-decoration: none; }
 
-    
+#portfolio
+{
+  display: flex;
+}
