@@ -84,7 +84,11 @@
         max-width: 960px; /* Set a maximum width for the container */
         margin-top: 20px; /* Add margin to separate the heading and skills */
       }
-      
+      #education
+      {
+        display: flex;
+        margin-bottom: 0 auto ;
+      }
       .skill {
         background-color: #ffffff;
         border-radius: 50%;
@@ -398,7 +402,7 @@
     transform: translateY(1px);
   }
   .download-btn {
-    background-color: black;
+    background-color: #272727;
     border: none;
     color: white;
     padding: 15px 32px;
