@@ -423,3 +423,85 @@
 {
   display: flex;
 }
+
+
+/* Experience section */
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.experience-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #2f2d52;
+}
+
+.section-title {
+  color: #c0c0ca;
+  margin-bottom: 20px;
+  font-size: 37px;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+.experience-card {
+  background-color:#eaf1f9 ;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  width: 460px;
+}
+
+.experience-card h2 {
+  color: #333;
+}
+
+.company {
+  color: #555;
+  margin-top: -8px;
+}
+
+.date {
+  color: #888;
+  margin-top: -8px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.skills li {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.description {
+  margin-top: 15px;
+  color: #555;
+  text-align: left;
+}
+
+.achievements {
+  
+  text-align: left  ;
+  margin-top: 10px;
+  color: #27ae60;
+} 
