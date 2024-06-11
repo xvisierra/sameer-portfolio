@@ -505,3 +505,52 @@ body {
   margin-top: 10px;
   color: #27ae60;
 } 
+
+.publications {
+  padding: 40px 0;
+  background-color: #F2E9E4; /* Warm beige */
+  color: #333;  /* Dark text for contrast */
+  text-align: center;
+}
+
+.publications h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.publications-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.publication {
+  background-color: #34495e; /* Darker blue card background */
+  color: #ecf0f1; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.publication:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.publication a {
+  text-decoration: none;
+  color: #95a5a6; /* Muted blue link color */
+}
+
+.publication h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #ecf0f1; 
+}
+
+.publication p {
+  line-height: 1.4;
+}
